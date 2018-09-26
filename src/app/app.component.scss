@@ -1,0 +1,55 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+$container: 1200px;
+
+h1 {
+  color:white;
+  font-size:3em;
+  margin:0;
+}
+h4 {
+  color:white;
+  font-size:1.5em;
+  margin:0;
+}
+
+
+agm-map {
+  width:100%;
+  height:60vh;
+  border-radius:20px;
+  margin-bottom:2em;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-group {
+  padding-top: 20px;
+}
+
+.burger-images{
+  width: 100%;
+  height:auto;
+}
+
+.card img {
+  width: 100%;
+  height:auto;
+}
+
+.card {
+  background-color: transparent;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.container{
+  width: $container;
+}
+
+/* 
+.card-block {
+  padding: 10px;
+  background-color: #fff;
+  flex: 1;               
+} */
